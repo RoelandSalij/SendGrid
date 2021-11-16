@@ -26,6 +26,7 @@ Make sure you have enabled the webhook function in SendGrid.
 
 ### 2. Include the AfterStartup microflows
 Copy and move the `AfterStartup` and `EventHandlerExample` to one of the modules in your project or create a new module.
+Edit the `AfterStartup` and configure the microflow that needs to process incoming events. This custom microflow requires an input parameter (Object: Event).
 
 ### 2. Include the SendGrid Published REST Service 
 Copy and move the `SendGridService` Published REST Service to one of the modules in your project or create a new module.
